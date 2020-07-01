@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 05d3ab4a5e2c86747997ee64a7baee43, type: 3}
+  m_Name: Wave3
+  m_EditorClassIdentifier: 
+  m_waveList:
+  - m_enemyGroupList:
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: 715da1583986e494d95cfec2103bd54d,
+        type: 3}
+      m_timeBetweenEnemies: 1
+      m_number: 2
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: 70f332988b03cee4cb12fc9955213b5c,
+        type: 3}
+      m_timeBetweenEnemies: 3
+      m_number: 5
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: f92542f927f1f23438b850e8afd74e63,
+        type: 3}
+      m_timeBetweenEnemies: 2
+      m_number: 3
+    m_timeBetweenWaves: 10
+  - m_enemyGroupList:
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: 715da1583986e494d95cfec2103bd54d,
+        type: 3}
+      m_timeBetweenEnemies: 1
+      m_number: 1
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: 715da1583986e494d95cfec2103bd54d,
+        type: 3}
+      m_timeBetweenEnemies: 5
+      m_number: 2
+    - m_enemyPrefabReference: {fileID: 4828338280106504732, guid: 715da1583986e494d95cfec2103bd54d,
+        type: 3}
+      m_timeBetweenEnemies: 2
+      m_number: 3
+    m_timeBetweenWaves: 5

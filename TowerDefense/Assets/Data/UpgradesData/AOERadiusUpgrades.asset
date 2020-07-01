@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0691d77d149417f46b7f16a7e8f4ee3d, type: 3}
+  m_Name: AOERadiusUpgrades
+  m_EditorClassIdentifier: 
+  m_AOERadiusUpgradesList:
+  - m_cost: 0
+    m_AOERadius: 4
+  - m_cost: 200
+    m_AOERadius: 4.25
+  - m_cost: 250
+    m_AOERadius: 4.5
+  - m_cost: 350
+    m_AOERadius: 4.75
+  - m_cost: 400
+    m_AOERadius: 5
